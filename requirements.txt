@@ -1,0 +1,16 @@
+streamlit
+pandas
+numpy 
+yfinance
+streamlit_multi_menu 
+plotly 
+seaborn
+statsmodels
+matplotlib
+
+
+import streamlit as st
+import base64
+import streamlit.components.v1 as components
+from streamlit_multi_menu import streamlit_multi_menu
+from datetime import datetime, timedelta
