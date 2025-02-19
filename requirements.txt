@@ -10,4 +10,4 @@ matplotlib
 scipy
 pypfopt 
 json
-
+PyPortfolioOpt
