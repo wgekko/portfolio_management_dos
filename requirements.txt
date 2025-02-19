@@ -7,10 +7,7 @@ plotly
 seaborn
 statsmodels
 matplotlib
+scipy
+pypfopt 
+json
 
-
-import streamlit as st
-import base64
-import streamlit.components.v1 as components
-from streamlit_multi_menu import streamlit_multi_menu
-from datetime import datetime, timedelta
