@@ -8,6 +8,6 @@ seaborn
 statsmodels
 matplotlib
 scipy
-pypfopt 
+ 
 json
 PyPortfolioOpt
