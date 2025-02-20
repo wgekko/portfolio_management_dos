@@ -14,4 +14,5 @@ EfficientFrontier
 risk_models
 expected_returns
 objective_functions
-plotting, HRPOpt
+plotting
+HRPOpt
