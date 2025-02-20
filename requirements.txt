@@ -8,6 +8,5 @@ seaborn
 statsmodels
 matplotlib
 scipy
-pypfopt >=1.5.5
 pyportfolioopt >=1.5.5
 
