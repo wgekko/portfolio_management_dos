@@ -333,7 +333,7 @@ with st.container():
     st.write('###')
     left, right = st.columns(2, gap='small', vertical_alignment="center")
     with left:
-        st.button("Análsis de Activos Financieros para un Portfolio Eficiente", key="neon-pulse")
+        st.button("Análsis de Activos Financieros para un Portfolio Eficiente", key="inpulse")
         st.subheader("Se despliegan Herramientas/Modelos estadisticos, opteniendo métricas optimas para la toma de decisiones")
     with right:
                #"""### image from local file"""

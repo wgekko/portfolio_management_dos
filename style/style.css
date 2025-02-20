@@ -424,45 +424,28 @@
 /* usando animación de titulo pagina de inicio */
 /* Animated button with pulse effect */
 
-.btn {
+.st-key-neon-pulse {
     position: relative;
-    padding: 1.5rem 3rem;
-    font-size: 3rem;
-    font-weight: 600;
-    color: #fff;
-    background: none;
-    border: none;
-    cursor: pointer;
-    overflow: hidden;
-    transition: all 0.4s ease;
-    min-width: 200px;
-    z-index: 1;
-  }
-  
-  .st-key-neon-pulse {
-    position: relative;
-    /*padding: 1.5rem 1.5rem;*/
     font-size: 1.2rem;    
     font-weight: 600;
     color: rgb(50, 248, 33);
     background: none;
-    border: none;
-    align-items: center;
+    border: none;    
     cursor: pointer;
     overflow: hidden;
     transition: all 0.4s ease;
-    /*min-width: 200px;*/
     z-index: 1;
-    width: 405px;
+    width: 100%; /* Hacer el ancho adaptable */
+    max-width: 405px; /* Tamaño máximo */
     border-radius: 8px; 
     background: #000;
     border: 2px solid #0ff;
     box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
     overflow: visible;
-  }
-  
-  .st-key-neon-pulse::before,
-  .at-key-neon-pulse::after {
+}
+
+.st-key-neon-pulse::before,
+.st-key-neon-pulse::after {
     content: "";
     position: absolute;
     inset: -4px;
@@ -470,13 +453,13 @@
     border-radius: inherit;
     animation: pulseOut 2s ease-out infinite;
     opacity: 0;
-  }
-  
-  .st-key-neon-pulse::after {
+}
+
+.st-key-neon-pulse::after {
     animation-delay: 1s;
-  }
-  
-  @keyframes pulseOut {
+}
+
+@keyframes pulseOut {
     0% {
       transform: scale(1);
       opacity: 1;
@@ -485,5 +468,36 @@
       transform: scale(1.5);
       opacity: 0;
     }
-  }
-  
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .st-key-neon-pulse {
+        font-size: 1rem; /* Reducir tamaño de fuente */
+        width: 90%; /* Reducir el ancho */
+        max-width: 320px; /* Tamaño máximo en pantallas pequeñas */
+        padding: 0.8rem; /* Añadir padding para mejorar la apariencia */
+    }
+
+    .st-key-neon-pulse::before,
+    .st-key-neon-pulse::after {
+        inset: -2px; /* Ajustar los bordes de la animación */
+        border-width: 1px; /* Hacer los bordes más finos en pantallas pequeñas */
+    }
+}
+
+/* Media query para pantallas muy pequeñas (móviles) */
+@media (max-width: 480px) {
+    .st-key-neon-pulse {
+        font-size: 0.9rem; /* Ajustar el tamaño de la fuente */
+        width: 80%; /* Ajustar el ancho */
+        max-width: 250px; /* Tamaño máximo en dispositivos muy pequeños */
+        padding: 0.5rem; /* Añadir padding para que se vea mejor */
+    }
+
+    .st-key-neon-pulse::before,
+    .st-key-neon-pulse::after {
+        inset: -1px; /* Ajuste adicional de los bordes */
+        border-width: 1px; /* Bordes más finos */
+    }
+}

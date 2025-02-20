@@ -15,8 +15,6 @@ from pypfopt import objective_functions
 from pypfopt import plotting
 from pypfopt import HRPOpt
 
-
-
 import warnings
 warnings.simplefilter("ignore", category=FutureWarning)
 # Suprimir advertencias ValueWarning
