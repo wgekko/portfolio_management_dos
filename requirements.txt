@@ -5,6 +5,7 @@ yfinance
 streamlit_multi_menu 
 plotly 
 seaborn
+scikit-learn
 statsmodels
 matplotlib
 scipy
