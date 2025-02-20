@@ -14,6 +14,12 @@ secondaryBackgroundColor="black"
 textColor="#CBC917"
 font="sans serif"
 
+link de demo : https://portfoliomanagementdos.streamlit.app/
+
+video demo de la app 
+
+
+https://github.com/user-attachments/assets/37fb6a38-008c-4ac6-9349-efb78f35a607
 
 
 
