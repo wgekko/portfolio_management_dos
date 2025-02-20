@@ -8,7 +8,12 @@ import matplotlib.pyplot as plt
 from scipy.optimize import minimize
 import yfinance as yf  
 import seaborn as sns
-from pypfopt import EfficientFrontier, risk_models, expected_returns, objective_functions, plotting, HRPOpt
+from pypfopt import EfficientFrontier
+from pypfopt import risk_models
+from pypfopt import expected_returns
+from pypfopt import objective_functions
+from pypfopt import plotting
+from pypfopt import HRPOpt
 
 
 

@@ -7,7 +7,14 @@ from datetime import datetime, timedelta
 import seaborn as sns
 import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
-from pypfopt import risk_models, expected_returns, EfficientFrontier, DiscreteAllocation
+from pypfopt import DiscreteAllocation
+from pypfopt import EfficientFrontier
+from pypfopt import risk_models
+from pypfopt import expected_returns
+
+
+
+
 import json
 import streamlit.components.v1 as components
 
