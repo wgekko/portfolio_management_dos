@@ -8,4 +8,8 @@ seaborn
 statsmodels
 matplotlib
 scipy
-
+risk_models
+expected_returns
+objective_functions
+plotting
+HRPOpt
