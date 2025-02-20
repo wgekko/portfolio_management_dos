@@ -8,8 +8,8 @@ seaborn
 statsmodels
 matplotlib
 scipy
-PyPortfolioOpt
-pypfopt
+PyPortfolioOp
+pyportfolioopt==1.5.6
 EfficientFrontier
 risk_models
 expected_returns
