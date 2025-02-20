@@ -442,17 +442,18 @@
   .st-key-neon-pulse {
     position: relative;
     /*padding: 1.5rem 1.5rem;*/
-    font-size: 1.1rem;
+    font-size: 1.2rem;    
     font-weight: 600;
-    color: rgb(37, 204, 22);
+    color: rgb(50, 248, 33);
     background: none;
     border: none;
+    align-items: center;
     cursor: pointer;
     overflow: hidden;
     transition: all 0.4s ease;
-    min-width: 460px;
+    /*min-width: 200px;*/
     z-index: 1;
-    width: 200px;
+    width: 405px;
     border-radius: 8px; 
     background: #000;
     border: 2px solid #0ff;
