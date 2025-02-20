@@ -9,9 +9,3 @@ statsmodels
 matplotlib
 scipy
 pyportfolioopt==1.5.6
-EfficientFrontier
-risk_models
-expected_returns
-objective_functions
-plotting
-HRPOpt
