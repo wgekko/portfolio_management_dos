@@ -1,5 +1,5 @@
 # portfolio_management
-calcula frontera de eficiencia y metricas de acciones y etfs
+calcula frontera de eficiencia y metricas de acciones  con modelo clásico, modelo de montecarlo y ponderador de portfolio. Base de teoria de Markowitz
 
 app para ejecutarla de colocarse en la terminal streamlit run Inicio.py
 
